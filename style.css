@@ -207,16 +207,31 @@ footer{
 .foot-panel2{
     background-color: #222f3d;
     color: white;
-    height: 500px;
+    height: 360px;
     display: flex;
     justify-content: space-evenly;
 }
 ul{
-    margin-top: 20px;
+    margin-top: 35px;
 }
 ul a{
     display: block;
     font-size: 0.85rem;
     margin-top: 10px;
     color: #dddddd;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("/img/logo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
 }
